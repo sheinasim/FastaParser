@@ -1,4 +1,4 @@
-# FindDuplicatesFromBUSCO 
+# FastaParser 
 Extracts records from a fasta based on a list of fasta headers.
 
 Dependencies:
