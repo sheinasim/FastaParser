@@ -28,8 +28,8 @@ for record in SeqIO.parse(args.fasta, "fasta"):
 df1 = df_record_lengths[df_record_lengths['record'].isin(content_list)] 
 df2 = df_record_lengths[~df_record_lengths['record'].isin(content_list)] 
 
-outfile1 = args.records.split(".")[0] + "_records"
-outfile2 = args.records.split(".")[0] + "_remaining"
+outfile1 = args.records.split(".txt")[0] + "_records"
+outfile2 = args.records.split(".txt")[0] + "_remaining"
 
 SeqIO.write(sequences_in_file, outfile1 + ".fasta", "fasta")
 SeqIO.write(sequences_not_in_file, outfile2 + ".fasta", "fasta")
