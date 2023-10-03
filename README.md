@@ -5,7 +5,7 @@ Dependencies:
 
 * Python3 
 * Biopython
-* Python pandas
+* Python pandas==1.3.4
 
 ### Usage
   
